@@ -8,5 +8,5 @@
 
 * KM_plot (directory): Kaplan Meier plot analysis
   * batch_pipeline.sh: a shell script to run the following programs.
-    * KM_plot.R: draws Kaplan Meier plot. The R packages of survival (v3.2.3) and survminer (v0.4.8) are used.
+  * KM_plot.R: draws Kaplan Meier plot. The R packages of survival (v3.2.3) and survminer (v0.4.8) are used.
     

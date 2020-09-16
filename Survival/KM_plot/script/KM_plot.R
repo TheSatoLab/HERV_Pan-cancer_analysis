@@ -1,10 +1,6 @@
 #!/usr/bin/env R
 
 library(survival)
-library(ranger)
-library(ggplot2)
-library(dplyr)
-library(ggfortify)
 library(survminer)
 
 args <- commandArgs(trailingOnly = T)

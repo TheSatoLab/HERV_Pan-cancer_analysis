@@ -1,8 +1,6 @@
 #!/usr/bin/env R
 
-library(dplyr)
 library(survival)
-library(survminer)
 
 args <- commandArgs(trailingOnly = T)
 

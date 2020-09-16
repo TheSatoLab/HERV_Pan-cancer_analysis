@@ -7,7 +7,7 @@
 * script/batch_pipeline.sh: a shell script to run the following programs.
 * script/sum_table.py: concatenates the results of featureCounts of respective RNA-Seq data.
 * script/sum_featureCount_info.py: concatenates the featureCounts library information of respective RNA-Seq data (.summary file).
-* script/QC_filtering_RNA-Seq_libary.R: detects and excludes the outlier RNA-Seq libraries regarding the proportion of "non-assigned" reads .
+* script/QC_filtering_RNA-Seq_libary.R: detects and excludes the outlier RNA-Seq libraries regarding the proportion of "non-assigned" reads (i.e., the fragments that were uniquely mapped on the reference genome but not on HERVs or the exons of genes). The outlier libraries were detected recursively using the Smirnov-Grubbs test (the threshold was set at 0.05).
 * script/calc_total_HERV_expression.R: calculates the total expression level of HERVs in each RNA-Seq data.
 * script/calc_subfamily_level_expression.py: calculates the expression level of respective HERV subfamilies.
 * script/vst.R: performs variance-stavilization transformation. DESeq2 (v1.18.1) is used.

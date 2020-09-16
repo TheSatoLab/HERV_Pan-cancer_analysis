@@ -26,3 +26,6 @@ python script/rmRedundantGS_median.py \
    --res_num 100 \
    --thresh 0.7 > sum_res_BP_CC_canPath_InterPro_median_100.test.txt
 
+# --gs_f: multiple files are acceptable.
+# --res_num: the number of genes to output in each direction of correlation.
+# --thresh: max Simpson score of the gene set overlap

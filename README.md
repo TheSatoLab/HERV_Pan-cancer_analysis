@@ -7,7 +7,7 @@ Gene expression aberration is a hallmark of cancers, but the mechanisms underlyi
 
 ## Contents: 
 * RNA-Seq_pipeline: generates the expression matrix of genes and HERVs and performs quality control, filtering, and normalization of the elements in the matrix.
-* Expressional_correlation_with_HERVs: calculates expression correlation between respective genes and the sum of HERVs and performs GSEA based on the correlation scores.
-* Survival: performs Cox proportional hazard regression and generates Kaplan Meier plot.
+* Expressional_correlation_with_HERVs: calculates the expression correlations between respective genes and the sum of HERVs and performs GSEA based on the correlation scores.
+* Survival: performs Cox proportional hazard regression analysis and generates Kaplan-Meier survival plot.
 * ATAC-Seq: calculates the fold enrichment of the overlaps between HERVs and ATAC-Seq peaks.
-* test_data: test data used for running programs in this repository
+* test_data: test data used to run the programs in this repository

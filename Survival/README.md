@@ -2,9 +2,8 @@
 
 * Coxph (directory): Cox proportional hazard regression analysis
   * script/batch_pipeline.sh: a shell script to run the following programs.
-  * script/survival.gene.R: performs Cox proportional hazard regression analysis for all genes and HERVs. The R package of survival (v3.2.3) is used.
+  * script/survival.gene.R: performs Cox proportional hazard regression analysis for all genes and HERVs. The R package of survival (v3.2.3) is used. The information of patient sex and race are included as explanatory variables.
   * script/fgsea.R: performs GSEA based on the z scores of genes or HERVs calculated by the above Cox proportional hazard regression analysis.
-
 
 * KM_plot (directory): Kaplan Meier plot analysis
   * batch_pipeline.sh: a shell script to run the following programs.

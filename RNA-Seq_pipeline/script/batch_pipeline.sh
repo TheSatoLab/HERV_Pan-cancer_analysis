@@ -6,15 +6,15 @@ COMMENTOUT
 
 
 #make count matrix
-#python2 script/sum_table.py \
-#       ${featureCounts_dir_path}/*.txt \
-#       > test.txt
+python2 script/sum_table.py \
+       ${featureCounts_dir_path}/*.txt \
+       > test.txt
 
 
 #summarize featureCounts information
-#python script/sum_featureCount_info.py \
-#       ${featureCounts_dir_path}/*.txt.summary \
-#       > test.featureCounts.info.txt
+python2 script/sum_featureCount_info.py \
+       ${featureCounts_dir_path}/*.txt.summary \
+       > test.featureCounts.info.txt
 
 
 #quality control and filtering
